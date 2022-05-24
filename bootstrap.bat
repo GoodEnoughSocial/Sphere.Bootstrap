@@ -25,4 +25,5 @@ move ./Sphere.Accounts.API ../
 move ./Sphere.Auth.API ../
 move ./Sphere.ApiGateway.API ../
 
-cp ./pullall.bat ../
+copy ./pullall.bat ../
+copy ./Sphere.sln ../

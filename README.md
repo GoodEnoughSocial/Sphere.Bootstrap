@@ -4,7 +4,7 @@ This contains some scripts that hopefully make working on this project a little 
 
 ## Windows example instructions
 
-```
+```batch
 mkdir c:\sphere\
 cd c:\sphere\
 git clone git@github.com:GoodEnoughSocial/Sphere.Bootstrap.git
@@ -20,4 +20,4 @@ If desired, `c:\sphere\sphere.sln` also exists, which loads up a sln with all pr
 
 ## Linux example instructions
 
-Nothing yet, sorry - see https://github.com/GoodEnoughSocial/Sphere.Bootstrap/issues/2
+Nothing yet, sorry - see <https://github.com/GoodEnoughSocial/Sphere.Bootstrap/issues/2>
