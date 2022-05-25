@@ -53,6 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.Timeline.API", "Sphe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.Timeline.API.Tests", "Sphere.Timeline.API\Sphere.Timeline.API.Tests\Sphere.Timeline.API.Tests.csproj", "{8EE37F86-B2C3-4411-9F48-E53C479AEE00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FD202DE-FADA-4EC9-9BD5-3D3BEE488297}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.Props = Directory.Build.Props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

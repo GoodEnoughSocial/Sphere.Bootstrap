@@ -8,13 +8,14 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <NoWarn>CA1710</NoWarn>
+    <NoWarn>CA1710;CS1591</NoWarn>
   </PropertyGroup>
 
   <PropertyGroup>
-    <!--<RuntimeIdentifiers>win-x64;win-x86;linux-x64;linux-musl-x64;linux-arm;win-arm;win-arm64</RuntimeIdentifiers>
+    <!--<RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+    <RuntimeIdentifiers>win-x64;linux-musl-x64</RuntimeIdentifiers>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -31,7 +32,7 @@
 
   <!-- These packages are automatically added to any csproj in this directory tree. -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.0-beta-20204-02" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -41,10 +42,10 @@
     <!-- All build-time artifacts in the .\build folder -->
 
     <!-- Files with pattern: {project}.csproj.FileListAbsolute.txt, *.AssemblyInfo.cs -->
-    <BaseIntermediateOutputPath>$(BuildOutputPath)\obj\$(Platform)\$(RuntimeIdentifier)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>$(BuildOutputPath)\obj\$(Configuration)\$(RuntimeIdentifier)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
     <!-- nuget.g.targets, project.assets.json, project.nuget.cache -->
-    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <!--<MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>-->
+    <!--<IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>-->
 
     <OutputPath>$(BuildOutputPath)\bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
 
