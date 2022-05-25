@@ -1,14 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09ACAE7A-FB77-4B8A-9900-6067A526F52F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.ApiGateway.API.Tests", "Sphere.ApiGateway.API\Sphere.ApiGateway.API.Tests\Sphere.ApiGateway.API.Tests.csproj", "{003BD9B5-4428-4A58-A93D-A2737A072FDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.ApiGateway.API", "Sphere.ApiGateway.API\Sphere.ApiGateway.API\Sphere.ApiGateway.API.csproj", "{9ED77177-FFFC-49AE-9A8D-1507AA28726B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003BD9B5-4428-4A58-A93D-A2737A072FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003BD9B5-4428-4A58-A93D-A2737A072FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003BD9B5-4428-4A58-A93D-A2737A072FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003BD9B5-4428-4A58-A93D-A2737A072FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED77177-FFFC-49AE-9A8D-1507AA28726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED77177-FFFC-49AE-9A8D-1507AA28726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED77177-FFFC-49AE-9A8D-1507AA28726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED77177-FFFC-49AE-9A8D-1507AA28726B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{003BD9B5-4428-4A58-A93D-A2737A072FDB} = {09ACAE7A-FB77-4B8A-9900-6067A526F52F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEDB1DDB-7730-429D-8510-C3CAD1FB5B06}
 	EndGlobalSection
 EndGlobal
