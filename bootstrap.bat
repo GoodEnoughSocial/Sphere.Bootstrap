@@ -11,19 +11,19 @@ git clone git@github.com:GoodEnoughSocial/Sphere.Relationships.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Spheres.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Timeline.API.git
 
-move ./Sphere.Accounts.API ../
-move ./Sphere.Administration.API ../
-move ./Sphere.ApiGateway.API ../
-move ./Sphere.Auth.API ../
-move ./Sphere.Branding.API ../
-move ./Sphere.Health.API ../
-move ./Sphere.Media.API ../
-move ./Sphere.Messages.API ../
-move ./Sphere.Profiles.API ../
-move ./Sphere.Relationships.API ../
-move ./Sphere.Spheres.API ../
-move ./Sphere.Timeline.API ../
+move .\Sphere.Accounts.API ..\
+move .\Sphere.Administration.API ..\
+move .\Sphere.ApiGateway.API ..\
+move .\Sphere.Auth.API ..\
+move .\Sphere.Branding.API ..\
+move .\Sphere.Health.API ..\
+move .\Sphere.Media.API ..\
+move .\Sphere.Messages.API ..\
+move .\Sphere.Profiles.API ..\
+move .\Sphere.Relationships.API ..\
+move .\Sphere.Spheres.API ..\
+move .\Sphere.Timeline.API ..\
 
-copy ./pullall.bat ../
-copy ./Sphere.sln ../
-copy ./Directory.Build.Props ../
+copy .\pullall.bat ..\
+copy .\Sphere.sln ..\
+copy .\Directory.Build.Props ..\
