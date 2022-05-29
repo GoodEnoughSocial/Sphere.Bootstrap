@@ -8,6 +8,7 @@ git clone git@github.com:GoodEnoughSocial/Sphere.Media.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Messages.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Profiles.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Relationships.API.git
+git clone git@github.com:GoodEnoughSocial/Sphere.Shared.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Spheres.API.git
 git clone git@github.com:GoodEnoughSocial/Sphere.Timeline.API.git
 
@@ -21,6 +22,7 @@ move .\Sphere.Media.API ..\
 move .\Sphere.Messages.API ..\
 move .\Sphere.Profiles.API ..\
 move .\Sphere.Relationships.API ..\
+move .\Sphere.Shared ..\
 move .\Sphere.Spheres.API ..\
 move .\Sphere.Timeline.API ..\
 

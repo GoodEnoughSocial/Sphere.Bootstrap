@@ -49,3 +49,7 @@ cd ..
 cd Sphere.Spheres.API
 git pull
 cd ..
+
+cd Sphere.Shared
+git pull
+cd ..
