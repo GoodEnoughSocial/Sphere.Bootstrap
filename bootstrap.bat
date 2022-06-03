@@ -29,3 +29,6 @@ move .\Sphere.Timeline.API ..\
 copy .\pullall.bat ..\
 copy .\Sphere.sln ..\
 copy .\Directory.Build.Props ..\
+copy .\.editorconfig ..\
+copy .\.gitignore ..\
+copy .\.dockerignore ..\

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <NoWarn>CA1710;CS1591</NoWarn>
+    <NoWarn>CA1710;CS1591;IDE1006</NoWarn>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -33,7 +33,7 @@
   <!-- These packages are automatically added to any csproj in this directory tree. -->
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
-    <PackageReference Include="Consul" Version="1.6.10.5" />
+    <PackageReference Include="Consul" Version="1.6.10.6" />
     <PackageReference Include="Flurl" Version="3.0.6" />
     <PackageReference Include="Flurl.Http" Version="3.2.4" />
     <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
