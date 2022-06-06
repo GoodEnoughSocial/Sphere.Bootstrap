@@ -1,0 +1,16 @@
+services:
+  consul:
+    image: consul
+    # network_mode: host
+    restart: always
+    ports:
+      - 8600:8600
+      - 8500:8500
+
+  redis:
+    image: redis
+    restart: always
+    ports:
+      - 8001:8001
+      - 8443:8443
+      - 9443:9443
