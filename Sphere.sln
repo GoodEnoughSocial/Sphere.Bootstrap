@@ -55,6 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.Timeline.API.Tests",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FD202DE-FADA-4EC9-9BD5-3D3BEE488297}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		Directory.Build.Props = Directory.Build.Props
 	EndProjectSection
 EndProject
@@ -63,6 +66,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.Shared.Tests", "Sphere.Shared\Sphere.Shared.Tests\Sphere.Shared.Tests.csproj", "{7D166754-00A8-4C7F-8EA9-9B573473EE65}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sphere.Web.TestApp", "Sphere.Web.TestApp\Sphere.Web.TestApp.csproj", "{4378591A-7DC3-4DE9-8236-EF74CF5F32CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{F33DD4E5-FE3E-4D2E-8C9A-920F2662ADF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sphere.Server", "Sphere.Server\Sphere.Server.csproj", "{C5A06FC1-77A1-4737-B354-AC471FEDA92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -178,6 +185,14 @@ Global
 		{4378591A-7DC3-4DE9-8236-EF74CF5F32CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4378591A-7DC3-4DE9-8236-EF74CF5F32CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4378591A-7DC3-4DE9-8236-EF74CF5F32CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33DD4E5-FE3E-4D2E-8C9A-920F2662ADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33DD4E5-FE3E-4D2E-8C9A-920F2662ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33DD4E5-FE3E-4D2E-8C9A-920F2662ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33DD4E5-FE3E-4D2E-8C9A-920F2662ADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A06FC1-77A1-4737-B354-AC471FEDA92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A06FC1-77A1-4737-B354-AC471FEDA92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A06FC1-77A1-4737-B354-AC471FEDA92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A06FC1-77A1-4737-B354-AC471FEDA92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

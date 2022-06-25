@@ -46,6 +46,10 @@ cd Sphere.Relationships.API
 git pull
 cd ..
 
+cd Sphere.Server
+git pull
+cd ..
+
 cd Sphere.Spheres.API
 git pull
 cd ..
